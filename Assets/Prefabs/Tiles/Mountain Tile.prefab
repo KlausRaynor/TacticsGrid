@@ -91,10 +91,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2728b362c34c422fb637b901059d982, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _baseColor: {r: 0.5568628, g: 0.4431373, b: 0.4431373, a: 0}
-  _offsetColor: {r: 0, g: 0, b: 0, a: 0}
+  TileName: Mountain Range
   _renderer: {fileID: 7793802850408012752}
   _highlight: {fileID: 1533781131699443350}
+  _isWalkable: 0
+  OccupiedUnit: {fileID: 0}
 --- !u!212 &7793802850408012752 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 2827202143543715875, guid: 889a82dce63c743f8adfc9bbaa105e8a, type: 3}

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -41,6 +42,15 @@ public class GridManager : MonoBehaviour
         GameManager.Instance.ChangeState(GameState.SpawnHeroes);
     }
 
+    public Tile GetHeroSpawnTile()
+    {
+        return _tiles.Where(t => t.Key.x < _width / 2 && t.Value.Walkable).OrderBy(t => Random.value).First().Value;
+    }
+
+    public Tile GetEnemySpawnTile()
+    {
+        return _tiles.Where(t => t.Key.x > _width / 2 && t.Value.Walkable).OrderBy(t => Random.value).First().Value;
+    }
     public Tile GetTileAtPosition(Vector2 pos)
     {
         if (_tiles.TryGetValue(pos, out var tile))
@@ -56,4 +66,5 @@ public class GridManager : MonoBehaviour
         var tileChoice = Random.Range(0,2) == 0 ? _waterTile : _mountainTile;
         return tileChoice;
     }
+    
 }

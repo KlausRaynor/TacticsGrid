@@ -86,8 +86,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0851e8054b4614c05b527faaa39fc61f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TileName: Lake Water
   _renderer: {fileID: 5529012840933279641}
   _highlight: {fileID: 3880638693097966303}
+  _isWalkable: 0
+  OccupiedUnit: {fileID: 0}
 --- !u!1 &3880638693097966303 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6799325930910000485, guid: 889a82dce63c743f8adfc9bbaa105e8a, type: 3}
