@@ -10,6 +10,11 @@ public class BaseHero : BaseUnit
         
     }
 
+    void HeroesTurn()
+    {
+        
+    }
+
     // Update is called once per frame
     void Update()
     {

@@ -33,6 +33,7 @@ public abstract class Tile : MonoBehaviour
 
     void OnMouseDown()
     {
+        Debug.Log("In Mouse down event");
         if (GameManager.Instance.GameState != GameState.HeroesTurn) return;
 
         if (OccupiedUnit != null)

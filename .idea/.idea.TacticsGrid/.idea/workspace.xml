@@ -2,35 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84643479-4a53-40fb-9ceb-b1f73ae8e6ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Managers/MenuManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Managers/MenuManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Units/Enemies.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Units/Enemies/Dino.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Units/Enemies/Dino.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Units/Heroes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Units/Heroes/Traveler.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Units/Heroes/Traveler.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Enemy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Enemy.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Hero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Hero.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TacticsGrid/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TacticsGrid/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Managers/GridManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Managers/GridManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Managers/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Managers/UnitManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Managers/UnitManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MenuManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MenuManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tiles/Grass Tile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tiles/Grass Tile.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tiles/Mountain Tile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tiles/Mountain Tile.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tiles/Water Tile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tiles/Water Tile.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Units/Enemies/Enemy 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Units/Enemies/Enemy 1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Units/Heroes/Hero 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Units/Heroes/Hero 1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Tiles/Tile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiles/Tile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Units/BaseUnit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Units/BaseUnit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Units/Heroes/BaseHero.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Units/Heroes/BaseHero.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +46,6 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b15294f286684bc99ec197157507c917159a00/87/ba6dbbb4/Random.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d44b17e136d09081da1e8fd0e8c83fde60e11818b9f2442d7ed8cb733fae895e/System.Collections.Generic.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Managers/MenuManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/klaus/TacticsGrid/Assets/Managers/UnitManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/klaus/TacticsGrid/Assets/Tiles/Tile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Units/Heroes/BaseHero.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Units/ScriptableUnit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/.NETFramework,Version=v4.7.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
@@ -86,26 +62,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.emmet&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Discover.Launch.Via.Unity": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/klaus/Library/Application Support/JetBrains/Rider2022.3/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/klaus/Library/Application Support/JetBrains/Rider2022.3/resharper-host/SourcesCache&quot;,
-      &quot;/Users/klaus/.local/share/Symbols/src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/Users/klaus/Library/Application Support/JetBrains/Rider2022.3/resharper-host/DecompilerCache",
+      "/Users/klaus/Library/Application Support/JetBrains/Rider2022.3/resharper-host/SourcesCache",
+      "/Users/klaus/.local/share/Symbols/src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/MacOS/Unity" />
@@ -156,7 +132,8 @@
       <workItem from="1675963935601" duration="4325000" />
       <workItem from="1676034526127" duration="3400000" />
       <workItem from="1676139244552" duration="3836000" />
-      <workItem from="1676208600041" duration="16960000" />
+      <workItem from="1676208600041" duration="17289000" />
+      <workItem from="1676552209754" duration="2468000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1675955158494</created>
@@ -186,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676037719720</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fixed null object (hover)">
+      <created>1676384569314</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676384569314</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +209,7 @@
     <MESSAGE value="Tile and GridManager updates" />
     <MESSAGE value="Added files" />
     <MESSAGE value="Manager Scaffolding Added. Unit scripting scaffolding added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Manager Scaffolding Added. Unit scripting scaffolding added." />
+    <MESSAGE value="Fixed null object (hover)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed null object (hover)" />
   </component>
 </project>
